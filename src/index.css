@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #0b3952b1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./Component/assests/fonts/helvetica-neu.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'La Belle Aurore';
+    src: url('./Component/assests/fonts/LaBelleAurore.woff2') format('woff2'),
+      url('./Component/assests/fonts/LaBelleAurore.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Coolvetica';
+    src: url('./Component/assests/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
+      url('./Component/assests/fonts/LaBelleAurore.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
